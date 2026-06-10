@@ -1,0 +1,17 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "TaskFlow - MERN Stack Task Management Application",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd client && npm start\"",
+    "start": "cd server && npm start",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["mern", "react", "nodejs", "mongodb", "express", "task-management"],
+  "author": "Your Name",
+  "license": "MIT"
+}
